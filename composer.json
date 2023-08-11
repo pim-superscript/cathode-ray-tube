@@ -1,0 +1,25 @@
+{
+    "name": "pim/cathode-ray-tube",
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pim\\CathodeRayTube\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Pim\\CathodeRayTube\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pim Elshoff",
+            "email": "pim.elshoff@gosuperscript.com"
+        }
+    ]
+}
